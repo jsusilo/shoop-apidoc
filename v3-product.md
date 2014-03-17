@@ -72,3 +72,24 @@ Response:
   ]
 }
 ```
+
+5. Update Stock
+----------------
+
+- http://stage.api.getshoop.com/shoopv3/v3/product/viewer?id=4696&key=acf4effafa1bf7539d8e10eefddd419dbbb403a9
+- http://api.getshoop.com/shoopv3/v3/product/viewer?id=4696&key=acf4effafa1bf7539d8e10eefddd419dbbb403a9
+
+GET Params:
+- id = product id
+- key
+
+POST Params:
+- stock = stock to update (integer)
+
+Response:
+
+```json
+{
+  "status":1
+}
+```
