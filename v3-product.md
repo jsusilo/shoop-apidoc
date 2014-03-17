@@ -1,10 +1,11 @@
-### Get product viewer
+1. Get product viewer
+----------------------
 
 - http://stage.api.getshoop.com/shoopv3/v3/product/viewer?id=4696
 - http://api.getshoop.com/shoopv3/v3/product/viewer?id=4696
 
 Params:
-id = product id
+- id = product id
 
 Response:
 
@@ -20,7 +21,8 @@ Response:
 }
 ```
 
-### Catat View Product
+2. Catat View Product
+----------------------
 
 - http://stage.api.getshoop.com/shoopv3/v3/product/user-view?id=4696&key=acf4effafa1bf7539d8e10eefddd419dbbb403a9
 - http://api.getshoop.com/shoopv3/v3/product/user-view?id=4696&key=acf4effafa1bf7539d8e10eefddd419dbbb403a9
