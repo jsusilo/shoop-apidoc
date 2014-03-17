@@ -38,8 +38,8 @@ Reponse:
 3. Post comment
 ----------------
 
-- http://stage.api.getshoop.com/shoopv3/v3/product/user-view?id=4696&key=acf4effafa1bf7539d8e10eefddd419dbbb403a9&comment=thecomment
-- http://api.getshoop.com/shoopv3/v3/product/user-view?id=4696&key=acf4effafa1bf7539d8e10eefddd419dbbb403a9&comment=thecomment
+- http://stage.api.getshoop.com/shoopv3/v3/product/post-comment?id=4696&key=acf4effafa1bf7539d8e10eefddd419dbbb403a9&comment=thecomment
+- http://api.getshoop.com/shoopv3/v3/product/post-comment?id=4696&key=acf4effafa1bf7539d8e10eefddd419dbbb403a9&comment=thecomment
 
 Params:
 - id = product id
