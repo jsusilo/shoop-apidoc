@@ -51,3 +51,24 @@ Reponse:
 ```json
 {"status":1}
 ```
+
+4. Get product lover
+----------------------
+
+- http://stage.api.getshoop.com/shoopv3/v3/product/lover?id=4696&key=acf4effafa1bf7539d8e10eefddd419dbbb403a9
+- http://api.getshoop.com/shoopv3/v3/product/lover?id=4696&key=acf4effafa1bf7539d8e10eefddd419dbbb403a9
+
+Params:
+- id = product id
+
+Response:
+
+```json
+{
+  "love_count":4,
+  "loved_by":  [
+    {"id":2880,"name":"andyajadeh7", "following": 0, "avatar": null},
+    {"id":2831,"name":"andyshoop", "following": 1, "avatar": null}
+  ]
+}
+```
