@@ -52,7 +52,22 @@ Reponse:
 {"status":1}
 ```
 
-4. Get product lover
+4. Get product comment
+-----------------------
+
+- http://stage.api.getshoop.com/shoopv3/v3/product/comment?id=4696&key=yourkey&limit=5&after-comment-id=2
+- http://api.getshoop.com/shoopv3/v3/product/comment?id=4696&key=yourkey&limit=5&after-comment-id=2
+
+Params:
+- id = product id
+
+Response:
+
+```json
+{"status":1,"product_id":4696,"comment_count":4,"comments":[{"id":3,"user":{"name":"andyshoop","avatar":null},"time":"2014-03-17 15:12:39","comment":"haha"},{"id":4,"user":{"name":"andyshoop","avatar":null},"time":"2014-03-17 15:17:08","comment":"haha"}]}
+```
+
+5. Get product lover
 ----------------------
 
 - http://stage.api.getshoop.com/shoopv3/v3/product/lover?id=4696&key=yourkey
@@ -73,7 +88,7 @@ Response:
 }
 ```
 
-5. Update Stock
+6. Update Stock
 ----------------
 
 - http://stage.api.getshoop.com/shoopv3/v3/product/update-stock?id=4696&key=yourkey
