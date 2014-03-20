@@ -55,11 +55,12 @@ Reponse:
 4. Get product comment
 -----------------------
 
-- http://stage.api.getshoop.com/shoopv3/v3/product/comment?id=4696&key=yourkey&limit=5&after-comment-id=2
-- http://api.getshoop.com/shoopv3/v3/product/comment?id=4696&key=yourkey&limit=5&after-comment-id=2
+- http://stage.api.getshoop.com/shoopv3/v3/product/comment?id=4696&key=yourkey&limit=5&before-comment-id=2
+- http://api.getshoop.com/shoopv3/v3/product/comment?id=4696&key=yourkey&limit=5&before-comment-id=2
 
 Params:
 - id = product id
+- before-comment-id = before comment id
 
 Response:
 
