@@ -6,6 +6,8 @@
 
 GET Params:
 - key = user key
+- limit
+- offset
 
 Response:
 
