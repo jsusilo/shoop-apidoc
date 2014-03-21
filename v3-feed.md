@@ -9,6 +9,7 @@ GET Params:
 - limit
 - offset
 - keyword
+- tag = tag1, tag2, tag3
 
 Response:
 
