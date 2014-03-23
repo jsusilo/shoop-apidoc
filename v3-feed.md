@@ -12,7 +12,7 @@ GET Params:
 - tag = tag1, tag2, tag3
 - since_time = 2014-01-01
 - until_time = 2015-01-01
-- sort = time
+- sort = time, viewCount, loveCount, commentCount, shareCount
 - direction = asc, desc (default : desc)
 - price_start
 - price_end
@@ -48,6 +48,7 @@ Response:
     "view_count":12,
     "shoop_count":4,
     "comment_count":6,
+    "share_count":6,
     "is_nego":false,
     "image_migrate":true,
     "condition":"New",
@@ -117,6 +118,7 @@ Response:
     "view_count":12,
     "shoop_count":4,
     "comment_count":6,
+    "share_count":6,
     "is_nego":false,
     "image_migrate":true,
     "condition":"New",
