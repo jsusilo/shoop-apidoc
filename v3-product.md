@@ -197,3 +197,34 @@ Response:
   }
 }
 ```
+
+8. Post share
+--------------
+
+- http://stage.api.getshoop.com/shoopv3/v3/product/post-share
+- http://api.getshoop.com/shoopv3/v3/product/post-share
+
+POST Params:
+- id = product id
+- key = user key
+- to-facebook = 0|1
+- to-twitter  = 0|1
+
+Reponse:
+
+```json
+{
+    "status": 1,
+    "share": {
+        "id": 4,
+        "user": {
+            "id": 2831,
+            "name": "andyshoop",
+            "avatar": null
+        },
+        "time": "2014-03-23 13:48:29",
+        "facebook_url": null,
+        "twitter_url": null
+    }
+}
+```
