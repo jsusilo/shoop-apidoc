@@ -81,6 +81,9 @@ curl -H "X-API-KEY: 4974328ce522a3eb86ecf73a193490314cf98c74" http://shoop.dev/a
         "following": 2,
         "follower": 2
     },
+    "point": {
+        "balance": 10000,
+    }
     "shoop_count": 0,
     "status": 1
 }
