@@ -228,3 +228,22 @@ Reponse:
     }
 }
 ```
+
+9. Promote Product
+------------------
+
+- http://stage.api.getshoop.com/shoopv3/v3/product/promote
+- http://api.getshoop.com/shoopv3/v3/product/promote
+
+POST Params:
+- id = product id
+- key
+- point (integer)
+
+Response:
+
+```json
+{
+  "status":1
+}
+```
