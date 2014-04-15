@@ -52,6 +52,7 @@ Response:
     "is_nego":false,
     "image_migrate":true,
     "condition":"New",
+    "promoted": true,
     "supercat":null,
     "buyercat":{
       "id":61,
